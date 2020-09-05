@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require lab1.c
+    - !require lab2.c
 
 submit50:
   files: *check50_files
